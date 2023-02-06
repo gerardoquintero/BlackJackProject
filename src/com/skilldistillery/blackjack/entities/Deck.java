@@ -14,7 +14,6 @@ public class Deck {
 		for (Suit suit : suits) {
 			for (Rank rank : ranks) {
 				Card card = new Card(suit, rank);
-				System.out.println(card);
 				deck.add(card);
 				
 			}
@@ -34,7 +33,7 @@ public class Deck {
 		return deck.remove(0);
 	}
 
-	public void shuffleCard() {
+	public void shuffleCards() {
 		 Collections.shuffle(deck);
 	}
 	public int checkDeckSize() {

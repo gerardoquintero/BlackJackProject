@@ -24,7 +24,7 @@ public class DealingCards {
 		int numCards = scan.nextInt();
 		scan.nextLine();
 
-		theDeck.shuffleCard();
+		theDeck.shuffleCards();
 
 		for (int numCardsDealtSoFar = 0; numCardsDealtSoFar < numCards; numCardsDealtSoFar++) {
 			Card aCard = theDeck.dealCard();

@@ -29,7 +29,11 @@ public class Card {
 	public void setSuit(Suit suit) {
 		this.suit = suit;
 	}
-
+	
+	public int getValue() {
+		return this.rank.getValue();
+		
+	}
 	@Override
 	public String toString() {
 		return "Card [rank=" + rank + ", suit=" + suit + "]";
